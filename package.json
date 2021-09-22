@@ -1,0 +1,28 @@
+{
+  "name": "do-this-do-that",
+  "version": "1.0.0",
+  "description": "personal note taking app",
+  "main": "index.js",
+  "author": "matt harris",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "scripts": {
+    "start": "npx webpack serve"
+  },
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.3.0",
+    "webpack-dev-server": "^4.2.1"
+  }
+}
